@@ -33,8 +33,3 @@ This project emphasizes the use of:
 - **Recursion:** Implements recursive algorithms for edit distance calculation.
 - **C-Style String Handling:** Works directly with null-terminated character arrays for low-level control.
 
-## How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/CharCraft-A-Comprehensive-C-Style-String-Toolkit.git
