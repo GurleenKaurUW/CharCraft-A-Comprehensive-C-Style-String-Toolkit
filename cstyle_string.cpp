@@ -145,11 +145,11 @@ char const *filename,
 char **&word_array,
 std::size_t &num_words,
 std::size_t max_length
-); //this function has already been implemented in main.cpp
+); 
 
 void free_word_array( char** word_array ){
     delete[] word_array[0];
-    word_array[0]= nullptr; //likely not necessary since pointer does not leave scope of fn. Would be better if the fn took ref to ptr.
+    word_array[0]= nullptr; 
     delete[] word_array;
     word_array = nullptr;
 }
